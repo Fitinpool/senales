@@ -136,3 +136,5 @@ plt.ylabel('impulso')
 plt.margins(dt)
 plt.grid()
 plt.show()
+
+#comentario lol
