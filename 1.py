@@ -128,7 +128,6 @@ ax.plot(t,sinc)
 
 plt.show()
 """
-"""PARTE 3
 #PARTE 3
 # INGRESO
 # tiempo [a,b] simétrico alrededor de 0
@@ -166,7 +165,7 @@ plt.legend()
 plt.grid()
 
 plt.show()
-"""
+
 """PARTE 4
 #PARTE 4
 
@@ -194,7 +193,6 @@ dienteSierra = lambda t: signal.sawtooth(2 * np.pi * fs * t)
 aperiodicas = {'DECRECIENTE' : ExpDecreciente, 'CRECIENTE' : ExpCreciente, 'IMPULSO' : impulso, 'ESCALON' : escalon, 'SINC', sinc}
 periodicas = {'SINOIDAL' : sinoidal, 'CUADRADA' : cuadrada, 'TRIANGULAR' : triangular, 'DIENTESIERRA' : dienteSierra}
 
-i = 1
 for x,y in aperiodicas.items():
     fig4 = plt.figure("PARTE2")
     fig4.subplots_adjust(hspace=0.5, wspace=0.5)
